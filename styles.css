@@ -125,6 +125,17 @@ a.header__button {
     margin: auto 11px;
 }
 
+
+
+
+
+/* 
+==========
+Main
+==========
+*/
+
+
 main {
     width: 100%;
     height: auto;
@@ -174,6 +185,8 @@ main {
     font-weight: 500;
     line-height: 1.6rem;
 }
+
+
 
 
 
@@ -279,4 +292,33 @@ main {
 .currency__table-fecha b {
     color: var(--warm-black);
     font-weight: bold;
+}
+
+
+
+
+
+
+
+/* Seccion de Produts details */
+
+
+
+.main__products-detail {
+    position: realtive;
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    padding: 20px 16px;
+    background-color: var(--warm-black);
+}
+
+.product__detail-batata-logo {
+    position: absolute;
+    width: 45px;
+    height: 30px;
+    background-image: url(./assets/icons/logo.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+
 }
