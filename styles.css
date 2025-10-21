@@ -305,12 +305,15 @@ main {
 
 
 .main__products-detail {
-    position: realtive;
+    position: relative;
     width: 100%;
     min-width: 320px;
     height: auto;
     padding: 20px 16px;
     background-color: var(--warm-black);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .product__detail-batata-logo {
@@ -320,5 +323,93 @@ main {
     background-image: url(./assets/icons/logo.svg);
     background-repeat: no-repeat;
     background-position: center;
+    top: -15px;
+    margin: 0 auto;
+}
+
+
+.product__detail-title {
+    width: 90%;
+    min-width: 288px;
+    height: auto;
+    margin-top: 45px;
+    text-align: center;
+}
+
+.product__detail-title h2 {
+    margin-bottom: 20px;
+    font-size: 2.4rem;
+    color: var(--just-white);
+    font-weight: bold;
+    line-height: 2.6rem;
+}
+
+.product__detail-title p {
+    margin-bottom: 20px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #888;
+}
+
+/* Subseccion Products cards */
+
+.product__details-card {
+    width: 90%;
+    min-width: 288px;
+    max-width: 400px;
+    height: auto;
+    margin: 15px auto;
+    padding: 15px;
+    background-color: var(--black);
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
+}
+
+.product__details-card span  {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-bottom: 10px;
 
 }
+
+.product__details-card .clock {
+    background-image: url(./assets/icons/clock.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.product__details-card .eye {
+    background-image: url(./assets/icons/eye.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.product__details-card .dolar {
+    background-image: url(./assets/icons/dollar-sign.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.product__details-card .check {
+    background-image: url(./assets/icons/check-circle.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.product__card-title {
+    margin-bottom: 10px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 1.5;
+    color: var(--just-white);
+}
+
+.product__card-body {
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #888;
+}
+
