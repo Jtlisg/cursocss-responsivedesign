@@ -413,3 +413,28 @@ main {
     color: #888;
 }
 
+
+
+/* Seccion comodin bitcoin */
+/* ----------------------- */
+
+.bitcoin__img-container {
+    width: 100%;
+    min-width: 320px;
+    height: 50vh;
+    background-image: url('./assets/imgs/bitcoinbaby.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.bitcoin__img-container h2 {
+    align-items: center;
+    padding-top: 85px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--just-white);
+    
+}
