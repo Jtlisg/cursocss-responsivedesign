@@ -487,4 +487,30 @@ main {
     background-color: var(--just-white);
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
+
+}
+
+
+.recommended {
+    position: absolute;
+
+    /* Modelo de caja */
+    width: 120px;
+    height: 31px;
+    background-color: var(--bitcoin-orange);
+    border-radius: 8px;
+
+    /* Efecto flotante y centrado */
+    top: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    /* Centrar el texto */
+    display: flex;
+    justify-content: center; /* centra el texto horizontalmente */
+    align-items: center;     /* centra el texto verticalmente */
+
+    
+    font-size: 1.2rem;
+    color: var(--just-white);
 }
