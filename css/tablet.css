@@ -1,0 +1,9 @@
+.products__cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 930px;
+}
+
+.plans__slider-container {
+    justify-content: center;
+}
